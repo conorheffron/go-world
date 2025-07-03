@@ -12,11 +12,6 @@ go: to add module requirements and sums:
 
 (base)  % go mod tidy
 
-
-(base)  % go build main
-package main is not in std (/usr/local/go/src/main)
-
-
 (base)  % go build main/HelloWorld.go 
 
 
