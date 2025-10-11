@@ -25,4 +25,4 @@ jobs:
       run: ls -ltr && go build ./...
 
     - name: Run
-      run: ls -ltr && ./HelloWorld
+      run: ls -ltr && ./main/HelloWorld  && ./main/HelloWorld2
