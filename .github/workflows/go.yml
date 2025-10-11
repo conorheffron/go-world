@@ -25,7 +25,7 @@ jobs:
       run: ls -ltr && go build ./...
 
     - name: Run 1
-      run: ls -ltr && cd main && ./HelloWorld
+      run: cd main && ls -ltr && ./HelloWorld
 
     - name: Run 2
-      run: ls -ltr && cd main2 && ./HelloWorld2
+      run: cd main2 && ls -ltr && ./HelloWorld2
