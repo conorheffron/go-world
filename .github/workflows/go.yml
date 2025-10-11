@@ -22,7 +22,7 @@ jobs:
         go-version: '1.24'
 
     - name: Build
-      run: cd main && go build ./...
+      run: go build main/**
 
     - name: Run
-      run: ./main
+      run: ./HelloWorld
