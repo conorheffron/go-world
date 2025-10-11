@@ -25,4 +25,4 @@ jobs:
       run: go build main/HelloWorld.go && go build main2/HelloWorld2.go
 
     - name: Run 1
-      run: ./HelloWorld && ./HelloWorld2
+      run: ls -ltr && ./HelloWorld && ./HelloWorld2
