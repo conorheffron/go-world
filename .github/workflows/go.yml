@@ -25,4 +25,4 @@ jobs:
       run: cd main && go build ./...
 
     - name: Run
-      run: cd main && ls -ltr
+      run: cd main && ./HelloWorld
