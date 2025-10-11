@@ -25,4 +25,4 @@ jobs:
       run: go build -o go-world
 
     - name: Run
-      run: ./go-world -name="Conor"
+      run: chmod +x run.sh && ./run.sh
