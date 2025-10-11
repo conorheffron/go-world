@@ -22,10 +22,10 @@ jobs:
         go-version: '1.24'
 
     - name: Build
-      run: ls -ltr && go build ./... && ls -ltr
+      run: go build ./... && ls -ltr
 
     - name: Run 1
-      run: cd main && ls -ltr && ./HelloWorld
+      run: cd main && ls -ltr 
 
     - name: Run 2
-      run: cd main2 && ls -ltr && ./HelloWorld2
+      run: cd main2 && ls -ltr
