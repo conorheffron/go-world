@@ -22,7 +22,7 @@ jobs:
         go-version: '1.24'
 
     - name: Build
-      run: go build -o hello-world
+      run: go build -o go-world
 
     - name: Run
-      run: ./hello-world
+      run: ./go-world -name="Conor"
