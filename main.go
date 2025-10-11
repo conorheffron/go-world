@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-world/parser"
+	"./parser"
 )
 
 func main() {
