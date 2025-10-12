@@ -1,20 +1,18 @@
-## Run file
+## Run file (default without args)
 ```shell
-(base) % go run main/HelloWorld.go 
-Hello World!%   
+% go run main.go
+
+Hello there, world!
 ```
-## or run package
+## Run file (default with name arg)
+```
+go run main.go -name="Conor Heffron"
+
+Hello there, Conor Heffron!
+```
+## OR Build & Run Package (go-world)
 ```shell
-(base)  % go mod init main
-go: creating new go.mod: module main
-go: to add module requirements and sums:
-        go mod tidy
+go build -o go-world .
 
-(base)  % go mod tidy
-
-(base)  % go build main/HelloWorld.go 
-
-
-(base)  % ./HelloWorld 
-Hello World!    
+./go-world -name="Conor Heffron" 
 ```                                                                                                                                                                                                         
