@@ -1,8 +1,8 @@
-package go-world
+package main
 
 import (
 	"fmt"
-	"parser/parser"
+	"go-world/parser"
 )
 
 func main() {
