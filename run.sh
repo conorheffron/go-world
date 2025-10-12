@@ -1,15 +1,9 @@
-echo "Building the Go program..."
-echo "$(ls -ltr)"
-echo "Running the program..."
 #!/usr/bin/env bash
 set -euo pipefail
 
-# run.sh - replicate local build & run steps for this project (macOS)
-# Uses bash to avoid zsh interactive compinit prompts. If you're running
-# from zsh and see compinit warnings, run this script with: bash run.sh
+# run.sh - replicate local build & run steps, run this script with: bash run.sh
 
-# Temporarily point ZDOTDIR to a safe directory to avoid zsh compinit
-# prompts when tooling spawns shells that source zsh config.
+# Temporarily point ZDOTDIR to a safe directory 
 export ZDOTDIR=/tmp
 
 echo "Working directory: $(pwd)"
