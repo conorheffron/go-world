@@ -4,7 +4,7 @@
 
 Hello there, world!
 ```
-## Run file (default with name arg)
+## Run main file (default with name arg)
 ```
 go run main.go -name="Conor Heffron"
 
