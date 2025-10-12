@@ -1,14 +1,6 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "configurations": [
-        {
-            "name": "Launch file",
-            "type": "go",
-            "request": "launch",
-            "mode": "debug",
-            "program": "main/HelloWorld.go"
-        },
-
         {
             "name": "Launch Package",
             "type": "go",
