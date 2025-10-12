@@ -4,7 +4,7 @@ echo "$(ls -ltr)"
 
 # Build the Go program
 echo "Building the Go program..."
-go build -o go-world ./...
+go build -o go-world main/...
 
 echo "$(ls -ltr)"
 
