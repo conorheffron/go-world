@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"./parser"
+	"parser/parser"
 )
 
 func main() {
