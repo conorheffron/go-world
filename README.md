@@ -1,6 +1,6 @@
 ## Run main file (default output without `name` argument)
 ```shell
-% go run main.go
+go run main.go
 
 Hello there, world!
 ```
