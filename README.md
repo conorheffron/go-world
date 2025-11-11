@@ -1,3 +1,7 @@
+# go-world
+
+[![Go](https://github.com/conorheffron/go-world/actions/workflows/go.yml/badge.svg)](https://github.com/conorheffron/go-world/actions/workflows/go.yml)
+
 ## Run main file (default output without `name` argument)
 ```shell
 go run main.go
